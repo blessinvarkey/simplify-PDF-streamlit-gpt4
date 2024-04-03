@@ -3,7 +3,7 @@ import fitz  # PyMuPDF
 from openai import OpenAI
 
 # Initialize the OpenAI client
-client = OpenAI(api_key='OPENAIAPIKEY')
+client = OpenAI(api_key= OPENAIAPIKEY)
 
 def pdf_to_text(uploaded_file):
     # Upload to streamlit
